@@ -33,7 +33,7 @@ TFG-codis/
 │   ├── 09_lrr_colors_b2.py
 │   ├── 10_lrr_colors_a2.py
 │   └── 11_grafiques_estacionals.py
-
+```
 ## Descripció dels scripts
 
 ### `01_period_pic.py`
