@@ -6,6 +6,34 @@
 Aquest repositori recull els scripts utilitzats per al tractament, anàlisi i representació gràfica de dades emprades en el Treball de Fi de Grau. Els codis permeten generar gràfiques relacionades amb l’onatge, l’energia de l’onatge, el nivell mitjà del mar i l’evolució de transectes costaners.
 
 
+## Contingut del repositori
+
+La proposta d’organització del repositori és la següent:
+
+```text
+TFG-codis/
+│
+├── README.md
+├── requirements.txt
+│
+├── dades/
+│   ├── BOYA.csv
+│   ├── MAREAOGRAF.csv
+│   └── Grafiques_tfg.xlsx
+│
+├── scripts/
+│   ├── 01_period_pic.py
+│   ├── 02_rosa_vents_direccio.py
+│   ├── 03_energia_onatge.py
+│   ├── 04_energia_acumulada.py
+│   ├── 05_nivell_mitja_mar_pendent.py
+│   ├── 06_transecte_distancia.py
+│   ├── 07_lrr_epr.py
+│   ├── 08_lrr_finestres_temporals.py
+│   ├── 09_lrr_colors_b2.py
+│   ├── 10_lrr_colors_a2.py
+│   └── 11_grafiques_estacionals.py
+
 ## Descripció dels scripts
 
 ### `01_period_pic.py`
