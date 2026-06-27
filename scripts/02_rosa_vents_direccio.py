@@ -4,6 +4,7 @@ import numpy as np
 
 direction_col = 'Direcc. Media de Proced.(0=N,90=E)'
 
+#Tambe es pot fer amb "PUNTO SIMAR"
 df = pd.read_csv("BOYA.csv", sep="\t", skiprows=1)
 
 df = df[(df[direction_col] != -9999.9) & (df[direction_col] != 0)]
