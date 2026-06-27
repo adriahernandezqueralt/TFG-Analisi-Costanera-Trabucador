@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 variable_plot = 'Periodo de Pico(s)'
 
-
+#Tambe es pot fer amb "PUNTO SIMAR"
 df = pd.read_csv("BOYA.csv", sep="\t", skiprows=1)
 df = df[['Fecha (GMT)', variable_plot]]
 
