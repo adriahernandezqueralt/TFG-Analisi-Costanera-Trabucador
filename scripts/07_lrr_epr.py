@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-archivo = r"C:\Users\FX506\Desktop\tfg python\Grafiques_tfg.xlsx"
+archivo = "Tu URL"
 
 df = pd.read_excel(archivo, sheet_name="B2", header=3)
 df.columns = df.columns.str.strip()
