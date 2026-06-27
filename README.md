@@ -3,7 +3,7 @@
 
 # Codis del Treball de Fi de Grau (TFG)
 
-Aquest repositori recull els scripts utilitzats per al tractament, anàlisi i representació gràfica de dades emprades en el Treball de Fi de Grau. Els codis permeten generar gràfiques relacionades amb l’onatge, l’energia de l’onatge, el nivell mitjà del mar i l’evolució de transectes costaners.
+Aquest repositori recull els scripts utilitzats per al tractament, anàlisi i representació gràfica de dades emprades en el Treball de Fi de Grau. Els codis permeten generar gràfiques relacionades amb l’onatge i l’evolució de transectes costaners.
 
 
 ## Contingut del repositori
@@ -37,7 +37,7 @@ TFG-codis/
 ## Descripció dels scripts
 
 ### `01_period_pic.py`
-Genera una gràfica temporal del període de pic de l’onatge a partir del fitxer `BOYA.csv`.
+Genera una gràfica temporal del període de pic de l’onatge a partir d'un fitxer.
 
 ### `02_rosa_vents_direccio.py`
 Genera una rosa dels vents amb la direcció mitjana de procedència de l’onatge.
@@ -46,13 +46,13 @@ Genera una rosa dels vents amb la direcció mitjana de procedència de l’onatg
 Calcula i representa l’energia proporcional de l’onatge mitjançant l’expressió:
 
 ```text
-Energia proporcional = Hs² · Tp
+Flux d'energia proporcional = Hs² · Tp
 ```
 
 on `Hs` és l’altura significativa de l’onatge i `Tp` és el període de pic.
 
 ### `04_energia_acumulada.py`
-Calcula el flux d’energia acumulada de l’onatge al llarg del temps a partir de l’energia proporcional acumulada.
+Calcula el flux d’energia acumulada de l’onatge al llarg del temps a partir del flux d'energia proporcional acumulada.
 
 ### `05_nivell_mitja_mar_pendent.py`
 Analitza el nivell mitjà del mar a partir del fitxer `MAREAOGRAF.csv`, selecciona els màxims mensuals i calcula la tendència lineal. També exporta els resultats a `maxims_mensuals.csv`.
@@ -70,7 +70,7 @@ Representa el valor de `LRR` per a una finestra temporal concreta.
 Genera una gràfica de `LRR` per a la baseline B, incloent zones destacades i marques visuals per facilitar la interpretació dels resultats.
 
 ### `10_lrr_colors_a2.py`
-Genera una gràfica de `LRR` per a la baseline A, també amb zones destacades i marques visuals.
+Genera una gràfica de `LRR` per a la baseline A, també amb zones destacades i marques visuals per facilitar la interpretació dels resultats.
 
 ### `11_grafiques_estacionals.py`
-Genera gràfiques estacionals del flux d’energia i del flux d’energia acumulat per als mesos de setembre, octubre i novembre de cada any.
+Genera gràfiques estacionals del flux d’energia i del flux d’energia acumulat per als mesos de setembre, octubre i novembre (podent-se modificar els mesos) de cada any.
