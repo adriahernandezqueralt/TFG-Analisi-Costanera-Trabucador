@@ -6,7 +6,7 @@ import matplotlib.dates as mdates
 period_col = 'Periodo de Pico(s)'
 height_col = 'Altura Signif. del Oleaje(m)'
 
-
+#Tambe es pot fer amb "PUNTO SIMAR"
 df = pd.read_csv("BOYA.csv", sep="\t", skiprows=1)
 
 
