@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
+#Tambe es pot fer amb "PUNTO SIMAR"
 df = pd.read_csv("BOYA.csv", sep=r"\s+", skiprows=2, header=None, engine="python")
 
 df.columns = [
